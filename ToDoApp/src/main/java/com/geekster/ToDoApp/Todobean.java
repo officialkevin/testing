@@ -1,0 +1,23 @@
+package com.geekster.ToDoApp;
+
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Configuration
+public class Todobean {
+
+    @Bean
+    public List<Todo> returnTodo(){
+
+
+        return new ArrayList<>();
+    }
+
+
+
+
+}
